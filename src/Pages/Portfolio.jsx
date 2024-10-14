@@ -5,7 +5,7 @@ function Portfolio() {
         <div className="bg-[url('/tastatura.webp')] bg-cover bg-center  flex items-center justify-center">
 
             <div className='flex justify-center'>
-                <img className='p-10 w-[60%] h-[80%] rounded-4xl' src="/ZekaCV.webp" alt="Portfolio" />
+                <img className='p-5 w-[80%] lg:w-[60%] rounded-4xl' src="/ZekaCV.webp" alt="Portfolio" />
             </div>
         </div>
     )

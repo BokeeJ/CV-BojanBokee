@@ -1,25 +1,37 @@
-import React, { useState } from 'react'
-import { GiHamburgerMenu } from "react-icons/gi";
-import QRCode from 'qrcode.react';
+import { useState, useEffect } from 'react';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { Link } from 'react-router-dom';
+
 
 function Navbar() {
-    const [menu, Setmenu] = useState(false)
-    const handleClick = () => {
-        Setmenu(!menu)
-    }
-    const handleQuit = () => {
-        Setmenu(false)
-    }
+    const [menu, setMenu] = useState(false);
+
+    useEffect(() => {
+        const handleWindowClick = () => {
+            setMenu(false);
+        };
+        window.addEventListener('click', handleWindowClick);
+        return () => {
+            window.removeEventListener('click', handleWindowClick);
+        };
+    }, []);
+
+    const handleClick = (event) => {
+        event.stopPropagation();
+        setMenu(!menu);
+    };
+
+
     return (
         <div className='bg-gray-800 flex items-center justify-center '>
             <GiHamburgerMenu onClick={handleClick} size={40} color='white' />
-            <div className={`fixed top-0 right-0 gap-5 bg-gray-400 shadow-xl p-2 transition-transform duration-1000 ease-in-out ${menu ? 'translate-x-0' : 'translate-x-full'}`}>
-                <button onClick={handleQuit} className='top-0 left-0 absolute mr-5 text-xl border-black border w-7 h-7 mt-1'>x</button>
-                <ul className='text-l font-rob text-white gap-4'>
-                    <li className='cursor-pointer hover:text-gray-600'>Home</li>
+            <div className={`fixed top-0 right-0 gap-5shadow-xl p-2 transition-transform duration-1000 ease-in-out h-full bg-gray-800 opacity-80 ${menu ? 'translate-x-0' : 'translate-x-full'}`}>
+
+                <ul className='text-xl font-rob text-white  mt-10 '>
+                    <Link to={'home'} className='cursor-pointer hover:text-gray-600'>Home</Link>
                     <li className='cursor-pointer hover:text-gray-600'>About me</li>
                     <li className='cursor-pointer hover:text-gray-600'>Contact me </li>
-                    <li className='cursor-pointer hover:text-gray-600'>Portfolio</li>
+                    <Link to={'portfolio'} className='cursor-pointer hover:text-gray-600'>Portfolio</Link>
                     <li className='cursor-pointer hover:text-gray-600'>Projects</li>
                 </ul>
                 <div className='flex gap-4 mt-4'>

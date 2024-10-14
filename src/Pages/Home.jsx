@@ -1,8 +1,10 @@
-import React from 'react'
 
 function Mid() {
     return (
-        <div className='bg-black w-full h-full flex justify-between items-center'>
+        <div className='bg-black w-full h-full lg:flex-row lg:justify-between items-center flex justify-center flex-col'>
+            <div>
+                <img src="/BoJanD.svg" alt="Logo" />
+            </div>
 
             <div className='justify-center mx-auto text-center'>
 
@@ -10,8 +12,8 @@ function Mid() {
                     React developer ready for any challenge, at your service...<br />create a QR menu for your cafe or restaurant and make your stay easier for your guests...
                 </p>
             </div>
-            <div className='w-[50%] h-[50%] flex justify-center my-20'>
-                <img className='h-full w-[50%] rounded ' src="/meniQr.webp" alt="workingProgress" />
+            <div className='w-[80%] h-[50%] lg:w-[50%] flex justify-center lg:my-20 p-5'>
+                <img className='rounded ' src="/meniQr.webp" alt="workingProgress" />
             </div>
 
         </div>

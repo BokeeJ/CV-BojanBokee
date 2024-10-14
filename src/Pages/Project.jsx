@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function Project() {
     return (
@@ -8,19 +8,25 @@ function Project() {
                 <h1 className='text-2xl text-white'>Projects</h1>
                 <hr className='border-blue-600 mt-2 w-[60%]' />
             </div>
-            <div className='flex justify-between mt-5 m-5 lg:flex-row flex-col gap-5 items-center'>
-                <div className='rounded-2xl'>
-                    <h1 className='text-2xl text-orange-300 rounded-t-2xl text-center w-[300px] bg-black'><a href='https://www.laappetit.rs/' target='_blank'>LaAppetit</a></h1>
+            <div className=' mt-5 m-5 flex flex-wrap gap-5 items-center'>
+                <div className='rounded-2xl flex flex-col justify-center items-center'>
+                    <h1 className='text-2xl text-orange-300 rounded-t-2xl text-center w-[300px] bg-gray-600 rounded-2xl p-2 m-2'><a href='https://www.laappetit.rs/' target='_blank'>LaAppetit</a></h1>
                     <img className='w-[300px] h-[500px] rounded-b-2xl' src="/laappetit.webp" alt="laappetit" />
                 </div>
-                <div>
-                    <h1 className='text-2xl text-orange-300 text-center w-[300px] rounded-t-2xl bg-black'><a href='https://www.Proauto.rs/' target='_blank'>ProAuto</a></h1>
+                <div className="rounded-2xl flex flex-col justify-center items-center">
+                    <h1 className='text-2xl text-orange-300 text-center w-[300px] rounded-t-2xl bg-gray-600  p-2 m-2 rounded-2xl '><a href='https://www.Proauto.rs/' target='_blank'>ProAuto</a></h1>
                     <img className='w-[300px] h-[500px] rounded-b-2xl' src="/proauto.webp" alt="proauto" />
                 </div>
-                <div className='w-[300px] h-[540px] justify-center flex flex-col bg-black items-center rounded-2xl'>
-                    <h1 className='text-2xl text-orange-300 text-center w-[300px] bg-black '>Destilerija Achillea <br />QRscanMenu</h1>
+                <div className='w-[300px] h-[540px]  flex flex-col bg-black items-center rounded-2xl'>
+                    <h1 className='text-2xl text-orange-300 text-center w-[300px] bg-gray-600 rounded-2xl p-2'>Destilerija Achillea <br />QRscanMenu</h1>
                     <img className='w-[150px] h-[150px]' src="/Achillea.png" alt="achillea" />
                 </div>
+                <div className="rounded-2xl flex flex-col ">
+                    <h1 className='text-2xl text-orange-300 bg-gray-600 text-center w-[300px] p-2 rounded-2xl '><a href='https://www.milicanutricionista.com/' target='_blank'>MilicaNutricionista</a></h1>
+                    <img className='w-[300px] h-[460px] rounded-b-2xl p-2' src="/milicanutr.webp" alt="MilicaNutri" /> /</div>
+                <div className="rounded-2xl flex flex-col justify-center items-center">
+                    <h1 className='text-2xl text-orange-300 bg-gray-600 text-center w-[300px] rounded-2xl p-2 '><a href='https://www.ordinacija-Ljiljana.rs/' target='_blank'>Ordinacija Ljiljana</a></h1>
+                    <img className='w-[300px] h-[400px] rounded-b-2xl' src="/1.svg" alt="Dental" /> /</div>
             </div>
         </div>
     )
