@@ -7,6 +7,7 @@ import Contact from "./Pages/Contact"
 import Video from "./Pages/Video"
 import './App.css';
 import Footer from "./Components/Footer"
+import ScrollTop from "./Services/ScrollTop"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
 
     <div className="bg-gray-800">
       <Navbar />
+      <ScrollTop />
       <Home />
       <Video />
       <About />
