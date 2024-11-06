@@ -23,18 +23,21 @@ function Navbar() {
 
 
     return (
-        <div className='bg-gray-800 flex items-center justify-center '>
-            <GiHamburgerMenu onClick={handleClick} size={40} color='white' />
-            <div className={`fixed top-0 right-0 gap-5shadow-xl p-2 transition-transform duration-1000 ease-in-out h-full bg-gray-800 opacity-80 ${menu ? 'translate-x-0' : 'translate-x-full'}`}>
+        <div className='bg-black h-[90px]'>
 
-                <ul className='text-xl font-rob text-white  mt-10 '>
-                    <Link to={'home'} className='cursor-pointer hover:text-gray-600'>Home</Link>
-                    <li className='cursor-pointer hover:text-gray-600'>About me</li>
-                    <li className='cursor-pointer hover:text-gray-600'>Contact me </li>
-                    <Link to={'portfolio'} className='cursor-pointer hover:text-gray-600'>Portfolio</Link>
-                    <li className='cursor-pointer hover:text-gray-600'>Projects</li>
-                </ul>
-                <div className='flex gap-4 mt-4'>
+            <div className='flex justify-evenly lg:flex-row flex-col'>
+
+                <div>
+                    <ul className='lg:text-[15px] text-[12px] font-bold text-white flex gap-2 lg:gap-3 m-2'>
+                        <Link to={'home'} className='cursor-pointer hover:text-gray-600'>HOME</Link>
+                        <li className='cursor-pointer hover:text-gray-600'>ABOUT ME</li>
+                        <li className='cursor-pointer hover:text-gray-600'>CONTACT ME</li>
+                        <Link to={'portfolio'} className='cursor-pointer hover:text-gray-600'>PORTFOLIO</Link>
+                        <li className='cursor-pointer hover:text-gray-600'>PROJECTS</li>
+                    </ul>
+                </div>
+
+                <div className='flex gap-4 m-4'>
                     <a href='https://sr-rs.facebook.com/people/Bojan-Drazic/pfbid02vmkt6zBMx5LgZTX9YAPg5hqmJPWMzCV5TxA3YH1LadmDxW3u99F8cCCLZfF2js85l/' target='_blank'>
                         <img className='w-7 h-7' src="/facebook.png" alt="Facebook" />
                     </a>

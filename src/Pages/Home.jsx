@@ -1,7 +1,8 @@
-
+import Navbar from "../Components/Navbar"
 function Mid() {
     return (
         <div className='bg-black w-full h-full lg:flex-row lg:justify-between items-center flex justify-center flex-col'>
+
             <div>
                 <img src="/BoJanD.svg" alt="Logo" />
             </div>
