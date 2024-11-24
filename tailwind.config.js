@@ -6,7 +6,9 @@ export default {
     extend: {
       fontFamily: {
         'rob': ['Roboto', 'sans-serif'],
+        'bokor': ['Bokor', 'system-ui'],
       },
+
     },
   },
   plugins: [],

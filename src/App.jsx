@@ -8,6 +8,8 @@ import Video from "./Pages/Video"
 import './App.css';
 import Footer from "./Components/Footer"
 import ScrollTop from "./Services/ScrollTop"
+// element 
+import { Element } from "react-scroll"
 
 function App() {
 
@@ -22,7 +24,9 @@ function App() {
       <About />
       <Project />
       <Portfolio />
-      <Contact />
+      <Element name="kontakt">
+        <Contact />
+      </Element>
       <Footer />
 
 

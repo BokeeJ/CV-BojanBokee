@@ -5,19 +5,22 @@ function Project() {
         <div className='bg-black p-5'>
             <div className='ml-20'>
                 <h2 className='text-blue-600'>#Must See</h2>
-                <h1 className='text-2xl text-white'>Projects</h1>
+                <h1 className='text-[30px] text-white font-bokor '>Projects</h1>
                 <hr className='border-blue-600 mt-2 w-[60%]' />
             </div>
-            <div className=' mt-5 m-5 flex flex-wrap gap-5 items-center'>
+            <div className=' mt-5 m-5 flex flex-wrap gap-5 items-center justify-center'>
                 <div className='rounded-2xl flex flex-col justify-center items-center'>
                     <h1 className='text-2xl text-orange-300 rounded-t-2xl text-center w-[300px] bg-gray-600 rounded-2xl p-2 m-2'><a href='https://www.laappetit.rs/' target='_blank'>LaAppetit</a></h1>
                     <img className='w-[300px] h-[500px] rounded-b-2xl' src="/laappetit.webp" alt="laappetit" />
                 </div>
+                <hr className='border-blue-600 lg:hidden w-[100%]' />
+                <hr className='border-blue-600 lg:hidden w-[90%]' />
+
                 <div className="rounded-2xl flex flex-col justify-center items-center">
                     <h1 className='text-2xl text-orange-300 text-center w-[300px] rounded-t-2xl bg-gray-600  p-2 m-2 rounded-2xl '><a href='https://www.Proauto.rs/' target='_blank'>ProAuto</a></h1>
                     <img className='w-[300px] h-[500px] rounded-b-2xl' src="/proauto.webp" alt="proauto" />
                 </div>
-                <div className='w-[300px] h-[540px]  flex flex-col bg-black items-center rounded-2xl'>
+                <div className='w-[300px] h-[540px]  flex flex-col bg-black items-center rounded-2xl gap-5'>
                     <h1 className='text-2xl text-orange-300 text-center w-[300px] bg-gray-600 rounded-2xl p-2'>Destilerija Achillea <br />QRscanMenu</h1>
                     <img className='w-[150px] h-[150px]' src="/Achillea.png" alt="achillea" />
                 </div>

@@ -2,10 +2,10 @@
 
 function About() {
     return (
-        <div className='ml-20'>
+        <div className='ml-20 '>
             <div >
                 <h2 className='text-blue-600'>#Need You Know</h2>
-                <h1 className='text-2xl text-white'>About Me And My Design</h1>
+                <h1 className='text-[30px] text-white font-bokor lg:text-[30px]'>About Me And My Design</h1>
                 <hr className='border-blue-600 mt-2 w-[60%]' />
             </div>
             <div className='w-[60%] mt-10'>
