@@ -1,0 +1,28 @@
+{
+  "contact": "Contact",
+  "availableOnNetworks": "Available on the following networks",
+  "instagram": "Instagram",
+  "facebook": "Facebook",
+  "linkedin": "LinkedIn",
+  "mail": "Mail",
+  "home": "Home",
+  "aboutMe": "About Me",
+  "contactMe": "Contact Me",
+  "portfolio": "Portfolio",
+  "projects": "Projects",
+  "logoAlt": "Logo",
+  "description": "React developer ready for any challenge, at your service...create a QR menu for your cafe or restaurant and make your stay easier for your guests...",
+  "qrAlt": "QR menu in progress",
+  "about": {
+    "needToKnow": "#Need You Know",
+    "title": "About Me And My Design",
+    "asWebDesigner": "As a web designer",
+    "tools": "HTML, Tailwind, JavaScript, and React",
+    "description": {
+      "part1": "I create websites and QR codes by combining various programming languages and design tools. I use",
+      "part2": "which enable me to implement all of this and ensure everything is responsive on mobile phones. My focus is on fulfilling clients desires, ensuring mutual satisfaction, and fostering long-term cooperation. I strive to stay updated with the latest trends and advancements in web design technology."
+    },
+    "contactMe": "Contact me"
+  }
+}
+
