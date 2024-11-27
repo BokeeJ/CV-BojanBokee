@@ -11,7 +11,9 @@
   "portfolio": "Portfolio",
   "projects": "Projekti",
   "logoAlt": "Logo",
-  "description": "React developer spreman za svaki izazov, na usluzi...kreirajte QR meni za vaš kafić ili restoran i olakšajte boravak svojim gostima...",
+  "mustsee": "#Pogledajte",
+  "BojanD": "Izradio je BojanD.",
+  "description": "Web sajt je vaša digitalna vizit karta – dostupan 24/7 i svima. On pomaže da se istaknete, privučete nove klijente i izgradite poverenje. Sa modernim dizajnom i pravim sadržajem, vaš sajt predstavlja najbolji način da promovišete proizvode i usluge, olakšate komunikaciju i ostanete ispred konkurencije. Ulaganje u web sajt je ulaganje u vaš uspeh...",
   "qrAlt": "QR meni u pripremi",
   "about": {
     "needToKnow": "#Treba da znate",

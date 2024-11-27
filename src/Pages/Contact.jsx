@@ -6,7 +6,7 @@ function Contact() {
     const { t } = useTranslation();
 
     return (
-        <div className="flex">
+        <div className="flex flex-col">
             <div className='flex flex-col'>
                 <div className='ml-20 mt-7 flex flex-col'>
                     <h2 className='text-blue-600'>#{t('contact')}</h2>

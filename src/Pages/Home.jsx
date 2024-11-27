@@ -6,7 +6,7 @@ function Mid() {
     return (
         <div className='bg-black w-full h-full lg:flex-row lg:justify-between items-center flex justify-center flex-col'>
 
-            <div>
+            <div className="w-[90%]">
                 <img src="/BoJanD.svg" alt={t('logoAlt')} />
             </div>
 
@@ -16,7 +16,7 @@ function Mid() {
                 </p>
             </div>
 
-            <div className='w-[80%] h-[50%] lg:w-[50%] flex justify-center lg:my-20 p-5'>
+            <div className='w-[90%] h-[50%] lg:w-[50%] flex justify-center lg:my-20 p-5'>
                 <img className='rounded' src="/meniQr.webp" alt={t('qrAlt')} />
             </div>
 
