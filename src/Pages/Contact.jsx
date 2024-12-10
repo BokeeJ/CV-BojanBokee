@@ -41,7 +41,7 @@ function Contact() {
                         </div>
                     </div>
                     <div>
-                        <ul className='lg:text-[30px] text-l font-bold text-white flex gap-2 lg:gap-3 m-2 font-bokor flex-col'>
+                        <ul className='lg:text-[30px] text-2xl shadow-sm shadow-gray-100 p-5 font-bold text-white flex gap-2 lg:gap-3 m-2 font-bokor flex-col'>
                             <Link
                                 to={'home'}
                                 className='cursor-pointer hover:text-gray-600'

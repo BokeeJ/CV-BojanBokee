@@ -7,7 +7,7 @@ function Navbar() {
         <div className='bg-black h-[90px]'>
             <div className='flex  lg:flex-row  justify-center'>
                 <div className='m-10 '>
-                    <ul className='lg:text-[30px] text-[19px] font-bold text-white flex gap-2 lg:gap-3 m-2 font-bokor hover:text-blue-400'>
+                    <ul className='lg:text-[30px] text-[19px] font-bold text-white flex gap-2 lg:gap-3 m-2 font-bokor'>
                         <Link
                             to={'home'}
                             className='cursor-pointer transition-transform duration-200 hover:text-gray-600'

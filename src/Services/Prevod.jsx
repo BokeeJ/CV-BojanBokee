@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { FaGithub } from "react-icons/fa";
 
 function Prevod() {
     const { i18n } = useTranslation();
@@ -7,7 +8,7 @@ function Prevod() {
         i18n.changeLanguage(lng);
     };
     return (
-        <div className='flex justify-between'>
+        <div className='flex justify-between bg-black'>
             <div className='flex gap-4 m-4'>
                 <a
                     href='https://sr-rs.facebook.com/people/Bojan-Drazic/pfbid02vmkt6zBMx5LgZTX9YAPg5hqmJPWMzCV5TxA3YH1LadmDxW3u99F8cCCLZfF2js85l/'
@@ -33,6 +34,12 @@ function Prevod() {
                         src='/linkedin.png'
                         alt='linkedin'
                     />
+                </a>
+                <a href="https://github.com/BokeeJ" target='_blank'>
+                    <FaGithub
+                        color='white'
+                        alt='Github'
+                        className='lg:w-10 lg:h-10 w-7 h-7' />
                 </a>
             </div>
 

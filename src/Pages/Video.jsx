@@ -1,23 +1,31 @@
-
-import React, { useEffect, useRef } from 'react';
-
+import { motion } from "motion/react"
 const VideoComponent = () => {
-    return (
-        <div className=" bg-gray-800 w-full p-5">
-            <video
-                className="rounded-lg shadow-lg"
-                width="fullscreen"
-                height="360"
-                loop
-                muted
-                autoPlay
-                playsInline
-                controls={false}
-            >
-                <source src="/video.webm" type="video/mp4" />
+    const fadeInAnimationVariants = {
+        initial: {
+            opacity: 0,
+            y: 200
 
-            </video>
-        </div>
+        },
+        animate: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                delay: 0.1,
+                duration: 2
+            }
+        }
+    }
+    return (
+        <motion.div
+            variants={fadeInAnimationVariants}
+            initial='initial'
+            whileInView='animate'
+            viewport={{
+                once: true,
+            }}
+            className=" bg-black w-full ">
+            <img src="/slika2.svg" className="w-full h-[600px] shadow-lg shadow-white" alt="sponsored" />
+        </motion.div>
     );
 }
 

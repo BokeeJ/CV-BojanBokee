@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-scroll";
 
 function About() {
     const { t } = useTranslation();
@@ -16,7 +17,12 @@ function About() {
                 </p>
             </div>
             <button className='text-[16px] border border-blue-600 p-3 m-5'>
-                <span className='font-bold text-white'>{t('about.contactMe')}</span>
+                <Link to="kontakt"
+                    smooth={true}
+                    duration={800}
+                    className='font-bold text-white  duration-200 transition-all' >
+                    {t('about.contactMe')}
+                </Link>
             </button>
         </div>
     );
