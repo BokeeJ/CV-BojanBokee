@@ -19,11 +19,13 @@
     "needToKnow": "#Treba da znate",
     "title": "O meni i mom dizajnu",
     "asWebDesigner": "Kao web dizajner",
-    "tools": " HTML, Tailwind, JavaScript i React",
+    "tools": "Koristim HTML, Tailwind, JavaScript i React,",
     "description": {
-      "part1": "kreiram web sajtove kombinujući različite programske jezike i alate za dizajn. Koristim",
+      "part1": "kreiram web sajtove kombinujući različite programske jezike i alate za dizajn. ",
       "part2": "što mi omogućava da sve ovo implementiram i obezbedim da sajt bude funkcionalan na mobilnim telefonima. Moj fokus je na ispunjavanju želja klijenata, osiguravanju obostrane satisfakcije i negovanju dugoročne saradnje. Trudim se da pratim najnovije trendove i dostignuća u tehnologiji web dizajna."
     },
-    "contactMe": "Kontaktirajte me"
+    "contactMe": "Kontaktirajte me",
+    "Show": "Prikaži..",
+    "Close": "Sakrij.."
   }
 }

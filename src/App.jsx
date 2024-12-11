@@ -20,7 +20,7 @@ function App() {
 
   return (
 
-    <div className="bg-gray-800">
+    <div className="bg-black">
       <Prevod />
       <Navbar />
       <ScrollTop />

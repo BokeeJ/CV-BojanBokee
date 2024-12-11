@@ -24,7 +24,7 @@ const VideoComponent = () => {
                 once: true,
             }}
             className=" bg-black w-full ">
-            <img src="/slika2.svg" className="w-full h-[600px] shadow-lg shadow-white" alt="sponsored" />
+            <img src="/slika2.svg" className="w-full lg:h-[600px] h-full shadow-lg shadow-white" alt="sponsored" />
         </motion.div>
     );
 }

@@ -1,6 +1,8 @@
 import { CiMail } from "react-icons/ci";
 import { Link } from "react-scroll";
 import { useTranslation } from 'react-i18next';
+import Weather from "../Services/Weather";
+import { FaGithub } from "react-icons/fa";
 
 function Contact() {
     const { t } = useTranslation();
@@ -39,6 +41,17 @@ function Contact() {
                             </a>
                             <h2>{t('mail')}</h2>
                         </div>
+                        <div className="w-10 h-10 flex gap-2 items-center text-white font-bold">
+                            <a href="https://github.com/BokeeJ" className="flex items-center gap-2" target='_blank'>
+                                <FaGithub
+                                    color='white'
+                                    alt='Github'
+                                    className='lg:w-10 lg:h-10 w-7 h-7' />
+                                <h2>Git</h2>
+
+                            </a>
+                        </div>
+
                     </div>
                     <div>
                         <ul className='lg:text-[30px] text-2xl shadow-sm shadow-gray-100 p-5 font-bold text-white flex gap-2 lg:gap-3 m-2 font-bokor flex-col'>
@@ -79,8 +92,10 @@ function Contact() {
                             </Link>
                         </ul>
                     </div>
-                </div>
 
+
+                </div>
+                <Weather />
             </div>
         </div>
     );

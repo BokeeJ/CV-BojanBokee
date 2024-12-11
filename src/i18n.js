@@ -8,7 +8,7 @@ i18n.use(initReactI18next).init({
         en: { translation: en },
         sr: { translation: sr }
     },
-    lng: 'en', // Početni jezik
+    lng: 'sr', // Početni jezik
     fallbackLng: 'en', // Rezervni jezik
     interpolation: {
         escapeValue: false, // React već sanitizuje vrednosti
