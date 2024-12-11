@@ -28,7 +28,6 @@ function App() {
         <Home />
       </Element>
       <Video />
-
       <Element name="projekti">
         <Project />
       </Element>
