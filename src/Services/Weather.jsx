@@ -6,15 +6,18 @@ const Weather = () => {
     const [temperature, setTemperature] = useState(null);
     const [error, setError] = useState(null);
 
+
     useEffect(() => {
         const fetchWeather = async () => {
             try {
                 // Koristi Axios za slanje GET zahteva
                 const response = await axios.get(
-                    `https://api.openweathermap.org/data/2.5/weather?q=Lazarevac,RS&units=metric&appid=a8881fbb2f9d720e315901fc18bf0db4`
+                    `https://api.openweathermap.org/data/2.5/weather?q=Lazarevac,RS&units=metric&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
                 );
                 setTemperature(response.data.main.temp);
             } catch (err) {
+                console.error('Error fetching weather data:', err);
+
                 setError(err.message);
             }
         };
