@@ -10,7 +10,7 @@ function About() {
     const { t } = useTranslation();
     return (
         <div className='flex justify-center flex-col bg-black'>
-            <div className='ml-20'>
+            <div className='lg:ml-20 ml-8'>
                 <h2 className='text-blue-600'>{t('about.needToKnow')}</h2>
                 <h1 className='text-[30px] text-white font-bokor lg:text-[30px]'>{t('about.title')}</h1>
                 <hr className='border-blue-600 mt-2 w-[60%]' />

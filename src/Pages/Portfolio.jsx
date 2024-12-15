@@ -3,10 +3,10 @@
 function Portfolio() {
     return (
         <div className="bg-[url('/tastatura.webp')] bg-cover bg-center  flex flex-col ">
-            <div className='relative m-10'>
+            <div className='relative lg:m-10 m-5'>
 
-                <h1 className='text-[30px] text-white font-bokor ml-10 '>Portfolio</h1>
-                <hr className='border-blue-600 mt-2 w-[60%] absolute ml-10' />
+                <h1 className='text-[30px] text-white font-bokor lg:ml-10  '>Portfolio</h1>
+                <hr className='border-blue-600 mt-2 w-[60%] absolute lg:ml-10' />
 
 
             </div>

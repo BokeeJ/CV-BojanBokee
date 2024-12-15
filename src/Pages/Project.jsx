@@ -25,7 +25,7 @@ function Project() {
 
     return (
         <div className='bg-black p-10'>
-            <div className='ml-20'>
+            <div className='lg:ml-20 '>
                 <h2 className='text-blue-600'>{t('mustsee')}</h2>
                 <h1 className='text-[30px] text-white font-bokor '>{t('projects')}</h1>
                 <hr className='border-blue-600 mt-2 w-[60%]' />

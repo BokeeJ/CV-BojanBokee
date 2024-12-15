@@ -10,7 +10,7 @@ function Contact() {
     return (
         <div className="flex flex-col">
             <div className='flex flex-col'>
-                <div className='lg:ml-20 ml-10 mt-7 flex flex-col'>
+                <div className='lg:ml-20 ml-5 mt-7 flex flex-col'>
                     <h2 className='text-blue-600'>#{t('contact')}</h2>
                     <h1 className='text-[30px] text-white font-bokor'>{t('availableOnNetworks')}</h1>
                     <hr className='border-blue-600 mt-2 w-[60%]' />
@@ -46,7 +46,7 @@ function Contact() {
                                 <FaGithub
                                     color='white'
                                     alt='Github'
-                                    className='w-10 h-10 mt-7' />
+                                    className='w-10 h-10 lg:mt-7 mt-6' />
                                 <h2>Git</h2>
 
                             </a>
@@ -54,7 +54,7 @@ function Contact() {
 
                     </div>
 
-                    <div className="">
+                    <div>
                         <ul className='lg:text-[30px] text-2xl text-orange-300 flex flex-col font-extralight gap-3'>
                             <Link
                                 to={'home'}
@@ -96,7 +96,7 @@ function Contact() {
 
 
                 </div>
-                {/* <Weather /> */}
+
             </div>
         </div>
     );

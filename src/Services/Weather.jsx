@@ -35,7 +35,7 @@ const Weather = () => {
             {error ? (
                 <p className="text-red-500">{error}</p>
             ) : temperature !== null ? (
-                <p className="text-blue-500 font-bold lg:text-2xl">{t('Weather')}: <span className='text-orange-300'>{temperature}°C</span></p>
+                <p className="text-blue-500 font-extralight lg:text-2xl">{t('Weather')}: <span className='text-orange-300 font-extrabold'>{temperature}°C</span></p>
             ) : (
                 <p>Učitavanje temperature...</p>
 
