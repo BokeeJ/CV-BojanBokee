@@ -9,6 +9,9 @@ import './App.css';
 import Footer from "./Components/Footer"
 import ScrollTop from "./Services/ScrollTop"
 import Prevod from "./Services/Prevod"
+import Weather from "./Services/Weather"
+
+
 // element 
 import { Element } from "react-scroll"
 
@@ -18,9 +21,11 @@ import './i18n';
 function App() {
 
 
+
   return (
 
     <div className="bg-black">
+
       <Prevod />
       <Navbar />
       <ScrollTop />
@@ -40,7 +45,10 @@ function App() {
       <Element name="kontakt">
         <Contact />
       </Element>
+      <Weather />
       <Footer />
+
+
 
 
     </div>

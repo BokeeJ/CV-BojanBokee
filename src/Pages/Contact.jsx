@@ -1,7 +1,7 @@
 import { CiMail } from "react-icons/ci";
 import { Link } from "react-scroll";
 import { useTranslation } from 'react-i18next';
-import Weather from "../Services/Weather";
+// import Weather from "../Services/Weather";
 import { FaGithub } from "react-icons/fa";
 
 function Contact() {
@@ -95,7 +95,7 @@ function Contact() {
 
 
                 </div>
-                <Weather />
+                {/* <Weather /> */}
             </div>
         </div>
     );
