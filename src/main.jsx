@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Pages/Home'
 import Portfolio from './Pages/Portfolio'
+import QrCodes from './Pages/QrCodes'
 
 const router = createBrowserRouter([{
   path: '/',
@@ -21,6 +22,10 @@ const router = createBrowserRouter([{
     {
       path: 'portfolio',
       element: <Portfolio />
+    },
+    {
+      path: 'QrCode',
+      element: <QrCodes />
     }
   ]
 }])

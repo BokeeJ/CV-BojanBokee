@@ -18,9 +18,9 @@ function Mid() {
                 </p>
             </div>
 
-            <div className='w-[90%] h-[50%] lg:w-[50%] hidden lg:block  justify-center lg:my-20 '>
+            {/* <div className='w-[90%] h-[50%] lg:w-[50%] hidden lg:block  justify-center lg:my-20 '>
                 <img className='rounded w-full h-full' src="/slika1.svg" alt={t('qrAlt')} />
-            </div>
+            </div> */}
 
         </div>
     );

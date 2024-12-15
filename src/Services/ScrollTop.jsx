@@ -26,7 +26,7 @@ function ScrollTop() {
 
 
     return (
-        <div className={`fixed right-0 bottom-10 w-[80px] hover:opacity-100  h-[60px] rounded-3xl transition-all duration-500 ${seen ? 'opacity-80 translate-y-4 block' : 'opacity-0 hidden translate-y-4'
+        <div className={`fixed right-0 bottom-10 lg:w-[80px] w-[50px] hover:opacity-100  lg:h-[60px] h-[40px] rounded-3xl transition-all duration-500 ${seen ? 'opacity-80 translate-y-4 block' : 'opacity-0 hidden translate-y-4'
             }`}>
             <button onClick={zeka} className="bg-gray-600 w-full h-full rounded-l-2xl text-white flex justify-center items-center"><TiArrowUpThick color="white" size={40} /></button>
         </div>
