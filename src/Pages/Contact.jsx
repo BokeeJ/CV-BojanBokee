@@ -46,7 +46,7 @@ function Contact() {
                                 <FaGithub
                                     color='white'
                                     alt='Github'
-                                    className='w-10 h-10 lg:mt-7 mt-6' />
+                                    className='w-10 h-10 lg:mt-7 mt-5' />
                                 <h2>Git</h2>
 
                             </a>
