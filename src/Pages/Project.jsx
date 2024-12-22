@@ -9,7 +9,7 @@ import { useState } from "react";
 function Project() {
     const slike = [
         { id: 1, img: '/andra.webp' },
-        { id: 2, img: '/Achillea.webp' }
+        { id: 2, img: '/qr.png' }
 
     ]
     const { t } = useTranslation();
@@ -31,7 +31,7 @@ function Project() {
                 <hr className='border-blue-600 mt-2 w-[60%]' />
             </div>
 
-            {/* OVDE JE PROBLEM !?!??!  */}
+
             <div className='flex flex-wrap gap-2  mt-10 lg:justify-start justify-center'>
                 {/* lappetit */}
                 <div className='rounded-2xl flex flex-col justify-center items-center'>
@@ -42,7 +42,7 @@ function Project() {
                 {/* Proauto */}
                 <div className="rounded-2xl flex flex-col justify-center items-center">
                     <h1 className='text-2xl text-orange-300 text-center w-[300px] rounded-t-2xl hover:bg-gray-800 cursor-pointer hover:transition-all bg-gray-600  p-2 m-2 rounded-2xl '><a href='https://www.ProAuto.rs/' target='_blank'>ProAuto.rs</a></h1>
-                    <img className='lg:w-[300px] lg:h-[300px] w-[150px] h-[150px] rounded-full border border-gray p-2' src="/ProAuto.webp" alt="proauto" />
+                    <img className='lg:w-[300px] lg:h-[300px] w-[150px] h-[150px] rounded-full border border-gray p-2' src="/2024.webp" alt="proauto" />
                 </div>
                 {/* Ljiljana */}
                 <div className="rounded-2xl flex flex-col justify-center items-center">

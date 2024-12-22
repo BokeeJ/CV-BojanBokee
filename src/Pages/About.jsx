@@ -15,7 +15,7 @@ function About() {
                 <h1 className='text-[30px] text-white font-bokor lg:text-[30px]'>{t('about.title')}</h1>
                 <hr className='border-blue-600 mt-2 w-[60%]' />
             </div>
-            <div className='w-full h-[400px] items-center justify-center flex flex-col mt-10'>
+            <div className='w-full h-full items-center justify-center flex flex-col mt-10'>
                 <p className='text-xl text-white p-3 text-balance text-center'>
                     <span className='text-orange-300 text-2xl'>{t('about.asWebDesigner')}</span>, {t('about.description.part1')}
                     <span className={`text-orange-300 text-2xl ${toggle ? 'hidden' : 'block'}`}>{t('about.tools')}</span><span className={`${toggle ? 'hidden' : 'block'}`}>{t('about.description.part2')}</span>
