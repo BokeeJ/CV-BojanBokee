@@ -9,7 +9,7 @@ function Mid() {
         <div className='bg-black w-full h-full lg:flex-row lg:justify-between items-center flex justify-center flex-col'>
 
             <div className="w-[90%]">
-                <img src="/BoJanD.svg" alt={t('logoAlt')} />
+                <img src="/Bojan.svg" alt={t('logoAlt')} />
             </div>
 
             <div className='justify-center mx-auto text-center'>
